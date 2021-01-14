@@ -1,5 +1,5 @@
-bandit
-------
+[bandit](https://github.com/PyCQA/bandit)
+-------
 
 A security linter from PyCQA
 
