@@ -2,11 +2,6 @@
 
 set -e
 
-VERSION="${1}"
-PATH="${2}"
-OPTIONS="${3}"
+pip3 install bandit=="$INPUT_VERSION"
 
-
-pip3 install bandit=="${VERSION}"
-
-bandit "$OPTIONS" "$PATH"
+bandit "$INPUT_OPTIONS" "$INPUT_PATH"
