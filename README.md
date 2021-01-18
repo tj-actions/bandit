@@ -9,6 +9,10 @@ bandit
       - uses: actions/checkout@v2
       - name: bandit
         uses: tj-actions/bandit@v1
+        with:
+          bandit-version: "1.7.0"
+          path: "."
+          options: "-r"
 ```
 
 
@@ -16,7 +20,9 @@ bandit
 
 |   Input       |    type    |  required     |  default                      |  description  |
 |:-------------:|:-----------:|:-------------:|:----------------------------:|:-------------:|
-| token         |  `string`   |    `true`    | `${{ github.token }}` | [GITHUB_TOKEN](https://docs.github.com/en/free-pro-team@latest/actions/reference/authentication-in-a-workflow#using-the-github_token-in-a-workflow) <br /> or a repo scoped <br /> [Personal Access Token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token)              |
+| bandit-version |  `string`   |    `true`    | `1.7.0`                      | Bandit version to be installed  |
+| path |  `string`   |    `true`    | `.`                      | Location to run bandit checks  |
+| options |  `string`   |    `true`    | `-r`                      | Extra options ([possible choices](https://github.com/PyCQA/bandit#usage))  |
 
 
 
