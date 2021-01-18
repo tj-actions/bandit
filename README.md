@@ -1,7 +1,7 @@
-[bandit](https://github.com/PyCQA/bandit)
--------
+bandit
+------
 
-A security linter from PyCQA
+[bandit](https://github.com/PyCQA/bandit) is a security linter from PyCQA
 
 ```yaml
 ...
