@@ -2,11 +2,7 @@ name: Run bandit
 description: A security linter from PyCQA
 author: tj-actions
 inputs:
-  token:
-    description: 'GITHUB_TOKEN or a Repo scoped PAT'
-    required: true
-    default: ${{ github.token }}
-  version:
+  bandit_version:
     description: bandit version to be used
     required: true
     default: '1.7.0'
@@ -23,11 +19,6 @@ inputs:
 runs:
   using: 'docker'
   image: 'Dockerfile'
-  args:
-    - ${{ inputs.token }}
-    - ${{ inputs.version }}
-    - ${{ inputs.path }}
-    - ${{ inputs.options }}
 branding:
   icon: shield
   color: white
