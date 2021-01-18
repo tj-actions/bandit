@@ -4,8 +4,6 @@ LABEL maintainer="Tonye Jack <jtonye@ymail.com>"
 
 RUN apk add bash python3 py3-pip && \
   pip3 install --no-cache --upgrade pip setuptools && \
-  python --version && \
-  pip --version && \
   python3 --version && \
   pip3 --version
 
