@@ -1,12 +1,11 @@
-FROM python:3.6.12-alpine3.12
+FROM alpine:3.13.0
 
 LABEL maintainer="Tonye Jack <jtonye@ymail.com>"
 
-RUN apk add bash && \
-  pip3 install --no-cache --upgrade pip setuptools && \
-  python3 --version && \
-  pip3 --version
+RUN apk add bash python3 py3-pip
+RUN pip3 install --no-cache --upgrade pip setuptools
 
-COPY entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+WORKDIR /action
+COPY entrypoint.sh entrypoint.sh
+RUN chmod +x entrypoint.sh
+ENTRYPOINT ["/action/entrypoint.sh"]
