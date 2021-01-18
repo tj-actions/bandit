@@ -1,3 +1,5 @@
+[![CI](https://github.com/tj-actions/bandit/workflows/CI/badge.svg)](https://github.com/tj-actions/bandit/actions?query=workflow%3ACI)  [![Update release version](https://github.com/tj-actions/bandit/workflows/Update%20release%20version/badge.svg)](https://github.com/tj-actions/bandit/actions?query=workflow%3A%22Update+release+version%22)
+
 bandit
 ------
 
