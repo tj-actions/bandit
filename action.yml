@@ -17,7 +17,7 @@ inputs:
   options:
     description: Extra options passed to bandit
     required: false
-    default: ''
+    default: '-r'
 
 
 runs:
