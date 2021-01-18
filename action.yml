@@ -6,12 +6,28 @@ inputs:
     description: 'GITHUB_TOKEN or a Repo scoped PAT'
     required: true
     default: ${{ github.token }}
+  version:
+    description: bandit version to be used
+    required: true
+    default: '1.7.0'
+  path:
+    description: Module/Package path to run bandit checks
+    required: true
+    default: '.'
+  options:
+    description: Extra options passed to bandit
+    required: false
+    default: ''
+
 
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
     - ${{ inputs.token }}
+    - ${{ inputs.version }}
+    - ${{ inputs.path }}
+    - ${{ inputs.options }}
 branding:
   icon: shield
   color: white
