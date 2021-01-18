@@ -2,7 +2,8 @@ FROM python:3.6.12-alpine3.12
 
 LABEL maintainer="Tonye Jack <jtonye@ymail.com>"
 
-RUN pip3 install --no-cache --upgrade pip setuptools && \
+RUN apk add bash && \
+  pip3 install --no-cache --upgrade pip setuptools && \
   python3 --version && \
   pip3 --version
 
