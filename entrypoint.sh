@@ -6,6 +6,6 @@ PATH="${1:-.}"
 OPTIONS="${2}"
 VERSION="${3:-1.7.0}"
 
-pip install bandit=="${VERSION}"
+pip3 install bandit=="${VERSION}"
 
 bandit "$OPTIONS" "$PATH"
