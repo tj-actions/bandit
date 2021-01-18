@@ -8,7 +8,7 @@ bandit
     steps:
       - uses: actions/checkout@v2
       - name: bandit
-        uses: tj-actions/bandit@v1
+        uses: tj-actions/bandit@v1.2
         with:
           bandit-version: "1.7.0"
           path: "."
