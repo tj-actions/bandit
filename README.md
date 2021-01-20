@@ -14,7 +14,7 @@ bandit
         uses: tj-actions/bandit@v1.3
         with:
           bandit_version: "1.7.0"
-          path: "."
+          targets: "."
           options: "-r"
 ```
 
@@ -24,7 +24,7 @@ bandit
 |   Input       |    type    |  required     |  default                      |  description  |
 |:-------------:|:-----------:|:-------------:|:----------------------------:|:-------------:|
 | bandit-version |  `string`   |    `true`    | `1.7.0`                      | Bandit version to be installed  |
-| path |  `string`   |    `true`    | `.`                      | Location to run bandit checks  |
+| targets |  `string[]`   |    `true`    | `.`                      | Targets to run bandit checks  |
 | options |  `string`   |    `true`    | `-r`                      | Extra options ([possible choices](https://github.com/PyCQA/bandit#usage))  |
 
 
