@@ -31,11 +31,6 @@ bandit
 
 * Free software: [MIT license](LICENSE)
 
-Features
---------
-
-* TODO
-
 
 Credits
 -------
