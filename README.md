@@ -6,6 +6,18 @@ bandit
 
 [bandit](https://github.com/PyCQA/bandit) is a security linter from PyCQA
 
+**Minimal version**
+
+```yaml
+...
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run bandit
+        uses: tj-actions/bandit@v2
+```
+
+**Using inputs**
+
 ```yaml
 ...
     steps:
