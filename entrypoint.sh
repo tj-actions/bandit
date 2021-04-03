@@ -4,4 +4,5 @@ set -e
 
 pip3 install bandit=="${INPUT_BANDIT_VERSION}"
 
-bandit "$INPUT_OPTIONS" "$INPUT_PATH"
+# shellcheck disable=SC2086
+bandit ${INPUT_OPTIONS} ${INPUT_TARGETS}
