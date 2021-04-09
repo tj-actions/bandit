@@ -27,7 +27,7 @@ bandit
         with:
           version: "1.7.0"
           targets: |  # or a single string "." 
-            test_project
+            test_package
           options: "-r"
 ```
 
