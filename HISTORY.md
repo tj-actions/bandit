@@ -1,12 +1,17 @@
 # Changelog
 
-## [Unreleased](https://github.com/tj-actions/bandit/tree/HEAD)
+## [v3](https://github.com/tj-actions/bandit/tree/v3) (2021-04-09)
 
-[Full Changelog](https://github.com/tj-actions/bandit/compare/v2.1...HEAD)
+[Full Changelog](https://github.com/tj-actions/bandit/compare/v2.1...v3)
 
 **Closed issues:**
 
 - Problem with input naming and escaping [\#18](https://github.com/tj-actions/bandit/issues/18)
+
+**Merged pull requests:**
+
+- Renamed bandit\_version to version [\#21](https://github.com/tj-actions/bandit/pull/21) ([jackton1](https://github.com/jackton1))
+- Upgraded to v2.1 [\#20](https://github.com/tj-actions/bandit/pull/20) ([jackton1](https://github.com/jackton1))
 
 ## [v2.1](https://github.com/tj-actions/bandit/tree/v2.1) (2021-04-03)
 
