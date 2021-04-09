@@ -26,7 +26,8 @@ bandit
         uses: tj-actions/bandit@v2.1
         with:
           bandit_version: "1.7.0"
-          targets: "."
+          targets: |  # or a single string "." 
+            test_project
           options: "-r"
 ```
 
@@ -36,7 +37,7 @@ bandit
 |   Input       |    type    |  required     |  default                      |  description  |
 |:-------------:|:-----------:|:-------------:|:----------------------------:|:-------------:|
 | bandit-version |  `string`   |    `true`    | `1.7.0`                      | Bandit version to be installed  |
-| targets |  `string[]`   |    `true`    | `.`                      | Targets to run bandit checks  |
+| targets |  `string[]|string`   |    `true`    | `.`                      | Targets to run bandit checks  |
 | options |  `string`   |    `true`    | `-r`                      | Extra options ([possible choices](https://github.com/PyCQA/bandit#usage))  |
 
 
