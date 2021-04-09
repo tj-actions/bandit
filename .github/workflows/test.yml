@@ -19,3 +19,18 @@ jobs:
         uses: reviewdog/action-shellcheck@v1
       - name: Run bandit
         uses: ./
+      - name: Run bandit with a single target
+        uses: ./
+        with:
+          targets: "test_project"
+      - name: Run bandit with a list of targets
+        uses: ./
+        with:
+          targets: |
+            test_project
+      - name: Run bandit with a different version
+        uses: ./
+        with:
+          version: "1.6.3"
+          targets: |
+            test_project
