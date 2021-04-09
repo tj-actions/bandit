@@ -2,7 +2,7 @@ name: Run bandit
 description: A security linter from PyCQA
 author: tj-actions
 inputs:
-  bandit_version:
+  version:
     description: bandit version to be used
     required: true
     default: '1.7.0'
