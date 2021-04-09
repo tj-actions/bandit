@@ -37,7 +37,7 @@ bandit
 |   Input       |    type    |  required     |  default                      |  description  |
 |:-------------:|:-----------:|:-------------:|:----------------------------:|:-------------:|
 | bandit-version |  `string`   |    `true`    | `1.7.0`                      | Bandit version to be installed  |
-| targets |  `string[]|string`   |    `true`    | `.`                      | Targets to run bandit checks  |
+| targets |  `string[] or string`   |    `true`    | `.`                      | Targets to run bandit checks  |
 | options |  `string`   |    `true`    | `-r`                      | Extra options ([possible choices](https://github.com/PyCQA/bandit#usage))  |
 
 
