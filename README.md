@@ -38,7 +38,7 @@ bandit
 |:-------------:|:-----------:|:-------------:|:----------------------------:|:-------------:|
 | bandit-version |  `string`   |    `true`    | `1.7.0`                      | Bandit version to be installed  |
 | targets |  `string[] or string`   |    `true`    | `.`                      | Targets to run bandit checks  |
-| options |  `string`   |    `true`    | `-r`                      | Extra options ([possible choices](https://github.com/PyCQA/bandit#usage))  |
+| options |  `string`   |    `true`    | `-r`                      | Extra options ([possible choices](https://github.com/tj-actions/bandit/blob/rename-bandit-version-to-version/action.yml#L14))  |
 
 
 
