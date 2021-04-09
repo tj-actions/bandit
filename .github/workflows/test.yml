@@ -22,15 +22,15 @@ jobs:
       - name: Run bandit with a single target
         uses: ./
         with:
-          targets: "test_project"
+          targets: "test_package"
       - name: Run bandit with a list of targets
         uses: ./
         with:
           targets: |
-            test_project
+            test_package
       - name: Run bandit with a different version
         uses: ./
         with:
           version: "1.6.3"
           targets: |
-            test_project
+            test_package
