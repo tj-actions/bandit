@@ -1,9 +1,10 @@
-FROM alpine:3.13.4
+FROM python:3.9-slim-buster
 
 LABEL maintainer="Tonye Jack <jtonye@ymail.com>"
 
-RUN apk add bash python3 py3-pip && \
-  pip3 install --no-cache --upgrade pip setuptools
+RUN apt-get update \
+  && apt-get install -y build-essential \
+  && pip3 install --no-cache --upgrade pip setuptools wheel
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
