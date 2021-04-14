@@ -1,4 +1,4 @@
-FROM alpine:3.13.4
+FROM python:3.9-alpine3.13.4
 
 LABEL maintainer="Tonye Jack <jtonye@ymail.com>"
 
