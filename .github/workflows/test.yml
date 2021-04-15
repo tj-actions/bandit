@@ -31,6 +31,6 @@ jobs:
       - name: Run bandit with a different version
         uses: ./
         with:
-          version: "1.6.3"
+          version: "1.6.2"
           targets: |
             test_package
