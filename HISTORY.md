@@ -1,5 +1,14 @@
 # Changelog
 
+## [v4](https://github.com/tj-actions/bandit/tree/v4) (2021-04-14)
+
+[Full Changelog](https://github.com/tj-actions/bandit/compare/v3...v4)
+
+**Merged pull requests:**
+
+- Install wheel [\#26](https://github.com/tj-actions/bandit/pull/26) ([jackton1](https://github.com/jackton1))
+- Upgraded to v3 [\#22](https://github.com/tj-actions/bandit/pull/22) ([jackton1](https://github.com/jackton1))
+
 ## [v3](https://github.com/tj-actions/bandit/tree/v3) (2021-04-09)
 
 [Full Changelog](https://github.com/tj-actions/bandit/compare/v2.1...v3)

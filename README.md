@@ -13,7 +13,7 @@ bandit
     steps:
       - uses: actions/checkout@v2
       - name: Run bandit
-        uses: tj-actions/bandit@v3
+        uses: tj-actions/bandit@v4
 ```
 
 **Using inputs**
@@ -23,7 +23,7 @@ bandit
     steps:
       - uses: actions/checkout@v2
       - name: Run bandit
-        uses: tj-actions/bandit@v3
+        uses: tj-actions/bandit@v4
         with:
           version: "1.7.0"
           targets: |  # or a single string "." 
