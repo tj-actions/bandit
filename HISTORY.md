@@ -1,5 +1,15 @@
 # Changelog
 
+## [v4.1](https://github.com/tj-actions/bandit/tree/v4.1) (2021-04-15)
+
+[Full Changelog](https://github.com/tj-actions/bandit/compare/v4...v4.1)
+
+**Merged pull requests:**
+
+- Update Dockerfile [\#29](https://github.com/tj-actions/bandit/pull/29) ([jackton1](https://github.com/jackton1))
+- Update test.yml [\#28](https://github.com/tj-actions/bandit/pull/28) ([jackton1](https://github.com/jackton1))
+- Upgraded to v4 [\#27](https://github.com/tj-actions/bandit/pull/27) ([jackton1](https://github.com/jackton1))
+
 ## [v4](https://github.com/tj-actions/bandit/tree/v4) (2021-04-14)
 
 [Full Changelog](https://github.com/tj-actions/bandit/compare/v3...v4)
