@@ -5,7 +5,7 @@
 bandit
 ------
 
-[bandit](https://github.com/PyCQA/bandit) is a security linter from PyCQA
+[bandit](https://github.com/PyCQA/bandit) is a security linter from [PyCQA](https://github.com/PyCQA?type=source)
 
 **Minimal version**
 
