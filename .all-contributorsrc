@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "tlacroix",
+      "name": "tlacroix",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4560307?v=4",
+      "profile": "https://nuagelab.com",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "bandit",
+  "projectOwner": "tj-actions",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
