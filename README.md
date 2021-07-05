@@ -30,7 +30,6 @@
       - name: Run bandit
         uses: tj-actions/bandit@v4.1
         with:
-          version: "1.7.0"
           targets: |  # or a single string "." 
             test_package
           options: "-r"
@@ -40,7 +39,6 @@
 
 |   Input       |    type    |  required     |  default                      |  description  |
 |:-------------:|:-----------:|:-------------:|:----------------------------:|:-------------:|
-| version |  `string`   |    `true`    | `1.7.0`                      | Bandit version to be installed ([possible choices](https://github.com/PyCQA/bandit/tags))  |
 | targets |  `string[] or string`   |    `true`    | `.`                      | Targets to run bandit checks  |
 | options |  `string`   |    `true`    | `-r`                      | Extra options ([possible choices](https://github.com/tj-actions/bandit/blob/main/action.yml#L13))  |
 
