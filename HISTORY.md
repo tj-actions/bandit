@@ -1,5 +1,38 @@
 # Changelog
 
+## [v5](https://github.com/tj-actions/bandit/tree/v5) (2021-07-05)
+
+[Full Changelog](https://github.com/tj-actions/bandit/compare/v4.1...v5)
+
+**Closed issues:**
+
+- Dependency Dashboard [\#32](https://github.com/tj-actions/bandit/issues/32)
+- Setup a test repo [\#5](https://github.com/tj-actions/bandit/issues/5)
+
+**Merged pull requests:**
+
+- Remove support for version input [\#53](https://github.com/tj-actions/bandit/pull/53) ([jackton1](https://github.com/jackton1))
+- Prevent cache warnings [\#52](https://github.com/tj-actions/bandit/pull/52) ([jackton1](https://github.com/jackton1))
+- Update reviewdog/action-shellcheck action to v1.6 [\#50](https://github.com/tj-actions/bandit/pull/50) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/verify-changed-files action to v7 [\#49](https://github.com/tj-actions/bandit/pull/49) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#48](https://github.com/tj-actions/bandit/pull/48) ([jackton1](https://github.com/jackton1))
+- docs: add tlacroix as a contributor for code [\#47](https://github.com/tj-actions/bandit/pull/47) ([allcontributors[bot]](https://github.com/apps/allcontributors))
+- Updated README.md [\#46](https://github.com/tj-actions/bandit/pull/46) ([jackton1](https://github.com/jackton1))
+- Update tj-actions/sync-release-version action to v8.7 [\#45](https://github.com/tj-actions/bandit/pull/45) ([renovate[bot]](https://github.com/apps/renovate))
+- Update pascalgn/automerge-action action to v0.14.2 [\#44](https://github.com/tj-actions/bandit/pull/44) ([renovate[bot]](https://github.com/apps/renovate))
+- Bump peter-evans/create-pull-request from 3.9.2 to 3.10.0 [\#43](https://github.com/tj-actions/bandit/pull/43) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update cirrus-actions/rebase action to v1.5 [\#41](https://github.com/tj-actions/bandit/pull/41) ([renovate[bot]](https://github.com/apps/renovate))
+- Bump peter-evans/create-pull-request from 3.9.1 to 3.9.2 [\#40](https://github.com/tj-actions/bandit/pull/40) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump actions/checkout from 2 to 2.3.4 [\#39](https://github.com/tj-actions/bandit/pull/39) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump peter-evans/create-pull-request from 3 to 3.9.1 [\#38](https://github.com/tj-actions/bandit/pull/38) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump reviewdog/action-shellcheck from 1 to 1.5 [\#37](https://github.com/tj-actions/bandit/pull/37) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update tj-actions/sync-release-version action to v8.6 [\#36](https://github.com/tj-actions/bandit/pull/36) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/github-changelog-generator action to v1.8 [\#35](https://github.com/tj-actions/bandit/pull/35) ([renovate[bot]](https://github.com/apps/renovate))
+- Bump tj-actions/sync-release-version from v8 to v8.5 [\#34](https://github.com/tj-actions/bandit/pull/34) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Upgrade to GitHub-native Dependabot [\#33](https://github.com/tj-actions/bandit/pull/33) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Update tj-actions/github-changelog-generator action to v1.6 [\#31](https://github.com/tj-actions/bandit/pull/31) ([renovate[bot]](https://github.com/apps/renovate))
+- Upgraded to v4.1 [\#30](https://github.com/tj-actions/bandit/pull/30) ([jackton1](https://github.com/jackton1))
+
 ## [v4.1](https://github.com/tj-actions/bandit/tree/v4.1) (2021-04-15)
 
 [Full Changelog](https://github.com/tj-actions/bandit/compare/v4...v4.1)
