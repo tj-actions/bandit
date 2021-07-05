@@ -18,7 +18,7 @@
     steps:
       - uses: actions/checkout@v2
       - name: Run bandit
-        uses: tj-actions/bandit@v4.1
+        uses: tj-actions/bandit@v5
 ```
 
 **Using inputs**
@@ -28,7 +28,7 @@
     steps:
       - uses: actions/checkout@v2
       - name: Run bandit
-        uses: tj-actions/bandit@v4.1
+        uses: tj-actions/bandit@v5
         with:
           targets: |  # or a single string "." 
             test_package
