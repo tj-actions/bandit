@@ -1,4 +1,4 @@
-FROM python:3.9-slim-buster
+FROM python:3.9.6-slim-buster
 
 LABEL maintainer="Tonye Jack <jtonye@ymail.com>"
 
