@@ -13,6 +13,8 @@
 
 [bandit](https://github.com/PyCQA/bandit) is a security linter from [PyCQA](https://github.com/PyCQA?type=source)
 
+## Usage
+
 **Minimal version**
 
 ```yaml
