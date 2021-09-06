@@ -44,6 +44,10 @@
 | targets |  `string[] or string`   |    `true`    | `.`                      | Targets to run bandit checks  |
 | options |  `string`   |    `true`    | `-r`                      | Extra options ([possible choices](https://github.com/tj-actions/bandit/blob/main/action.yml#L13))  |
 
+## Example
+![Screen Shot 2021-09-05 at 8 59 35 PM](https://user-images.githubusercontent.com/17484350/132146947-1794341e-da4d-485c-b011-abb008df8f14.png)
+
+
 *   Free software: [MIT license](LICENSE)
 
 If you feel generous and want to show some extra appreciation:
