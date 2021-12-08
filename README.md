@@ -1,4 +1,4 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/54e8fe5beafd46a5bbbc5ae5964e02f3)](https://app.codacy.com/gh/tj-actions/bandit?utm_source=github.com&utm_medium=referral&utm_content=tj-actions/bandit&utm_campaign=Badge_Grade_Settings)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/54e8fe5beafd46a5bbbc5ae5964e02f3)](https://app.codacy.com/gh/tj-actions/bandit?utm_source=github.com\&utm_medium=referral\&utm_content=tj-actions/bandit\&utm_campaign=Badge_Grade_Settings)
 [![CI](https://github.com/tj-actions/bandit/workflows/CI/badge.svg)](https://github.com/tj-actions/bandit/actions?query=workflow%3ACI)
 [![Update release version.](https://github.com/tj-actions/bandit/workflows/Update%20release%20version./badge.svg)](https://github.com/tj-actions/bandit/actions?query=workflow%3A%22Update+release+version.%22)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a1285ea955d346f9a37355933835aabd)](https://app.codacy.com/gh/tj-actions/bandit?utm_source=github.com\&utm_medium=referral\&utm_content=tj-actions/bandit\&utm_campaign=Badge_Grade_Settings)
