@@ -42,6 +42,16 @@
           options: "-r"
 ```
 
+If you feel generous and want to show some extra appreciation:
+
+Support this project with a :star:
+
+[![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
+
+[buymeacoffee]: https://www.buymeacoffee.com/jackton1
+
+[buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png
+
 ## Inputs
 
 |   Input       |    type    |  required     |  default                      |  description  |
@@ -54,14 +64,6 @@
 ![Screen Shot 2021-09-05 at 8 59 35 PM](https://user-images.githubusercontent.com/17484350/132146947-1794341e-da4d-485c-b011-abb008df8f14.png)
 
 *   Free software: [MIT license](LICENSE)
-
-If you feel generous and want to show some extra appreciation:
-
-[![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
-
-[buymeacoffee]: https://www.buymeacoffee.com/jackton1
-
-[buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png
 
 ## Credits
 
