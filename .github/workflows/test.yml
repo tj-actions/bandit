@@ -10,8 +10,13 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
     name: Test bandit
+    runs-on: ${{ matrix.platform }}
+    strategy:
+      fail-fast: false
+      matrix:
+        platform: [ubuntu-latest, macos-latest, macos-11, ubuntu-18.04]
+
     steps:
       - name: Checkout
         uses: actions/checkout@v2.4.0
