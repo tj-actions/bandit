@@ -9,6 +9,15 @@ on:
       - main
 
 jobs:
+  shellcheck:
+    name: shellcheck
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.4.0
+      - name: shellcheck
+        uses: reviewdog/action-shellcheck@v1.12
+    
   test:
     name: Test bandit
     runs-on: ${{ matrix.platform }}
@@ -20,8 +29,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2.4.0
-      - name: shellcheck
-        uses: reviewdog/action-shellcheck@v1.12
       - name: Run bandit
         uses: ./
       - name: Run bandit with a single target
