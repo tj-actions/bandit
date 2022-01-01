@@ -1,12 +1,58 @@
 # Changelog
 
+## [v5.1](https://github.com/tj-actions/bandit/tree/v5.1) (2022-01-01)
+
+[Full Changelog](https://github.com/tj-actions/bandit/compare/v5...v5.1)
+
+**Closed issues:**
+
+- Action Required: Fix Renovate Configuration [\#76](https://github.com/tj-actions/bandit/issues/76)
+- Dependency Dashboard [\#32](https://github.com/tj-actions/bandit/issues/32)
+
+**Merged pull requests:**
+
+- Update tj-actions/github-changelog-generator action to v1.10 [\#90](https://github.com/tj-actions/bandit/pull/90) ([renovate[bot]](https://github.com/apps/renovate))
+- Update reviewdog/action-shellcheck action to v1.13 [\#89](https://github.com/tj-actions/bandit/pull/89) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v3.12.0 [\#87](https://github.com/tj-actions/bandit/pull/87) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#86](https://github.com/tj-actions/bandit/pull/86) ([jackton1](https://github.com/jackton1))
+- Updated README.md [\#85](https://github.com/tj-actions/bandit/pull/85) ([jackton1](https://github.com/jackton1))
+- Update python Docker tag to v3.10.1 [\#84](https://github.com/tj-actions/bandit/pull/84) ([renovate[bot]](https://github.com/apps/renovate))
+- Add a Codacy badge to README.md [\#83](https://github.com/tj-actions/bandit/pull/83) ([codacy-badger](https://github.com/codacy-badger))
+- Update reviewdog/action-shellcheck action to v1.12 [\#82](https://github.com/tj-actions/bandit/pull/82) ([renovate[bot]](https://github.com/apps/renovate))
+- Update reviewdog/action-shellcheck action to v1.11 [\#81](https://github.com/tj-actions/bandit/pull/81) ([renovate[bot]](https://github.com/apps/renovate))
+- Update reviewdog/action-shellcheck action to v1.10 [\#80](https://github.com/tj-actions/bandit/pull/80) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v3.11.0 [\#79](https://github.com/tj-actions/bandit/pull/79) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#78](https://github.com/tj-actions/bandit/pull/78) ([jackton1](https://github.com/jackton1))
+- Update actions/checkout action to v2.4.0 [\#77](https://github.com/tj-actions/bandit/pull/77) ([renovate[bot]](https://github.com/apps/renovate))
+- Bump tj-actions/sync-release-version from 8.7 to 9 [\#75](https://github.com/tj-actions/bandit/pull/75) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update actions/checkout action to v2.3.5 [\#74](https://github.com/tj-actions/bandit/pull/74) ([renovate[bot]](https://github.com/apps/renovate))
+- Update python Docker tag to v3.10.0 [\#73](https://github.com/tj-actions/bandit/pull/73) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/verify-changed-files action to v8 [\#72](https://github.com/tj-actions/bandit/pull/72) ([renovate[bot]](https://github.com/apps/renovate))
+- Update reviewdog/action-shellcheck action to v1.9 [\#71](https://github.com/tj-actions/bandit/pull/71) ([renovate[bot]](https://github.com/apps/renovate))
+- Update reviewdog/action-shellcheck action to v1.8 [\#70](https://github.com/tj-actions/bandit/pull/70) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#69](https://github.com/tj-actions/bandit/pull/69) ([jackton1](https://github.com/jackton1))
+- Update python Docker tag to v3.10.0rc2 [\#68](https://github.com/tj-actions/bandit/pull/68) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#67](https://github.com/tj-actions/bandit/pull/67) ([jackton1](https://github.com/jackton1))
+- Bump pascalgn/automerge-action from 0.14.2 to 0.14.3 [\#66](https://github.com/tj-actions/bandit/pull/66) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump python from 3.9.7-slim-buster to 3.10.0rc1-slim-buster [\#65](https://github.com/tj-actions/bandit/pull/65) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update python Docker tag to v3.9.7 [\#64](https://github.com/tj-actions/bandit/pull/64) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v3.10.1 [\#63](https://github.com/tj-actions/bandit/pull/63) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/remark action to v1.7 [\#62](https://github.com/tj-actions/bandit/pull/62) ([renovate[bot]](https://github.com/apps/renovate))
+- Bump python from 3.9-slim-buster to 3.9.6-slim-buster [\#61](https://github.com/tj-actions/bandit/pull/61) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update reviewdog/action-shellcheck action to v1.7 [\#60](https://github.com/tj-actions/bandit/pull/60) ([renovate[bot]](https://github.com/apps/renovate))
+- Update codacy/codacy-analysis-cli-action action to v4 [\#59](https://github.com/tj-actions/bandit/pull/59) ([renovate[bot]](https://github.com/apps/renovate))
+- Update codacy/codacy-analysis-cli-action action to v3 [\#58](https://github.com/tj-actions/bandit/pull/58) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#57](https://github.com/tj-actions/bandit/pull/57) ([jackton1](https://github.com/jackton1))
+- Updated README.md [\#56](https://github.com/tj-actions/bandit/pull/56) ([jackton1](https://github.com/jackton1))
+- Add a Codacy badge to README.md [\#55](https://github.com/tj-actions/bandit/pull/55) ([codacy-badger](https://github.com/codacy-badger))
+- Upgraded to v5 [\#54](https://github.com/tj-actions/bandit/pull/54) ([jackton1](https://github.com/jackton1))
+
 ## [v5](https://github.com/tj-actions/bandit/tree/v5) (2021-07-05)
 
 [Full Changelog](https://github.com/tj-actions/bandit/compare/v4.1...v5)
 
 **Closed issues:**
 
-- Dependency Dashboard [\#32](https://github.com/tj-actions/bandit/issues/32)
 - Setup a test repo [\#5](https://github.com/tj-actions/bandit/issues/5)
 
 **Merged pull requests:**
