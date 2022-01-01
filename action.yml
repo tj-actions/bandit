@@ -1,4 +1,4 @@
-name: Bandit
+name: Bandit security linter
 description: A security linter from PyCQA
 author: tj-actions
 inputs:
