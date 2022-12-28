@@ -1,12 +1,21 @@
 # Changelog
 
-## [v5.2](https://github.com/tj-actions/bandit/tree/v5.2) (2022-12-28)
+## [v5.3](https://github.com/tj-actions/bandit/tree/v5.3) (2022-12-28)
 
-[Full Changelog](https://github.com/tj-actions/bandit/compare/v5...v5.2)
+[Full Changelog](https://github.com/tj-actions/bandit/compare/v5...v5.3)
 
 ## [v5](https://github.com/tj-actions/bandit/tree/v5) (2022-12-28)
 
-[Full Changelog](https://github.com/tj-actions/bandit/compare/v5.1...v5)
+[Full Changelog](https://github.com/tj-actions/bandit/compare/v5.2...v5)
+
+**Merged pull requests:**
+
+- chore: switch to use ghcr [\#164](https://github.com/tj-actions/bandit/pull/164) ([jackton1](https://github.com/jackton1))
+- Upgraded to v5.2 [\#163](https://github.com/tj-actions/bandit/pull/163) ([jackton1](https://github.com/jackton1))
+
+## [v5.2](https://github.com/tj-actions/bandit/tree/v5.2) (2022-12-28)
+
+[Full Changelog](https://github.com/tj-actions/bandit/compare/v5.1...v5.2)
 
 **Closed issues:**
 
