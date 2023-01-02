@@ -3,7 +3,7 @@ description: A security linter from PyCQA
 author: tj-actions
 inputs:
   targets:
-    description: Module(s)/Package(s) to run bandit checks
+    description: 'Module(s)/Package(s) to run bandit checks'
     required: true
     default: '.'
   options:
