@@ -7,7 +7,7 @@ inputs:
     required: true
     default: '.'
   options:
-    description: Options passed directly to bandit. See: [OPTIONS.md for available choices](./OPTIONS.md)
+    description: Extra options passed directly to bandit. See: [OPTIONS.md for available choices](./OPTIONS.md)
     required: false
     default: '-r'
 
