@@ -62,11 +62,6 @@ Support this project with a :star:
 
 <!-- AUTO-DOC-INPUT:END -->
 
-|   Input       |    type    |  required     |  default                      |  description  |
-|:-------------:|:-----------:|:-------------:|:----------------------------:|:-------------:|
-| targets |  `string[] or string`   |    `true`    | `.`                      | Targets to run bandit checks  |
-| options |  `string`   |    `true`    | `-r`                      | Extra options ([possible choices](https://github.com/tj-actions/bandit/blob/main/action.yml#L13))  |
-
 ## Example
 
 ![Screen Shot 2021-09-05 at 8 59 35 PM](https://user-images.githubusercontent.com/17484350/132146947-1794341e-da4d-485c-b011-abb008df8f14.png)
