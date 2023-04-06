@@ -9,11 +9,6 @@ on:
       - main
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    name: Build image
-    steps:
-      - name: Check
   test:
     runs-on: ubuntu-latest
     name: Test bandit
