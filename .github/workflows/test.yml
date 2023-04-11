@@ -31,7 +31,7 @@ jobs:
           context: .
           push: false
           load: true
-          tags: ghcr.io/tj-actions/bandit:latest
+          tags: ghcr.io/${{ github.repository }}:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
