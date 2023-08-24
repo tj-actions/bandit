@@ -55,10 +55,10 @@ Support this project with a :star:
 
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
-|  INPUT  |  TYPE  | REQUIRED | DEFAULT |                                             DESCRIPTION                                             |
-|---------|--------|----------|---------|-----------------------------------------------------------------------------------------------------|
-| options | string |  false   | `"-r"`  | Extra options passed directly to <br>bandit. See: [OPTIONS.md for available choices](./OPTIONS.md)  |
-| targets | string |   true   |  `"."`  |                              Module(s)/Package(s) to run bandit checks                              |
+|                         INPUT                         |  TYPE  | REQUIRED | DEFAULT |                                             DESCRIPTION                                             |
+|-------------------------------------------------------|--------|----------|---------|-----------------------------------------------------------------------------------------------------|
+| <a name="input_options"></a>[options](#input_options) | string |  false   | `"-r"`  | Extra options passed directly to <br>bandit. See: [OPTIONS.md for available choices](./OPTIONS.md)  |
+| <a name="input_targets"></a>[targets](#input_targets) | string |   true   |  `"."`  |                              Module(s)/Package(s) to run bandit checks                              |
 
 <!-- AUTO-DOC-INPUT:END -->
 
