@@ -1,5 +1,99 @@
 # Changelog
 
+# [5.5](https://github.com/tj-actions/bandit/compare/v5.4...v5.5) - (2023-09-07)
+
+## <!-- 13 -->📦 Bumps
+
+- Bump python from 3.11.3-slim-buster to 3.11.4-slim-buster
+
+Bumps python from 3.11.3-slim-buster to 3.11.4-slim-buster.
+
+---
+updated-dependencies:
+- dependency-name: python
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> ([e30a211](https://github.com/tj-actions/bandit/commit/e30a211f370a65e386ea2732910291f2dc7670ac))  - (dependabot[bot])
+- Bump tj-actions/branch-names from 6 to 7
+
+Bumps [tj-actions/branch-names](https://github.com/tj-actions/branch-names) from 6 to 7.
+- [Release notes](https://github.com/tj-actions/branch-names/releases)
+- [Changelog](https://github.com/tj-actions/branch-names/blob/main/HISTORY.md)
+- [Commits](https://github.com/tj-actions/branch-names/compare/v6...v7)
+
+---
+updated-dependencies:
+- dependency-name: tj-actions/branch-names
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> ([7f26cd0](https://github.com/tj-actions/bandit/commit/7f26cd01d7ffd3fbf15d06f2e7670b7907f9d7b4))  - (dependabot[bot])
+
+## <!-- 17 -->➖ Remove
+
+- Deleted .github/ISSUE_TEMPLATE/feature_request.yaml ([e29b49b](https://github.com/tj-actions/bandit/commit/e29b49bbc60b64fdf53e3a98d6a796a18c40f3b1))  - (Tonye Jack)
+- Deleted .github/ISSUE_TEMPLATE/bug_report.yaml ([f239d8e](https://github.com/tj-actions/bandit/commit/f239d8eddd890d00a6e186fde8bdd569ed5e9001))  - (Tonye Jack)
+- Deleted .github/FUNDING.yml ([2e9484f](https://github.com/tj-actions/bandit/commit/2e9484f17f40920a9aad9a14852be23f1781d11f))  - (Tonye Jack)
+- Deleted .github/workflows/auto-merge.yml ([fda37aa](https://github.com/tj-actions/bandit/commit/fda37aac13bad79bae38bb66ddf9c6d1fc1682f7))  - (Tonye Jack)
+
+## <!-- 26 -->🔄 Update
+
+- Updated README.md
+ ([74c938f](https://github.com/tj-actions/bandit/commit/74c938f53f8d2b1914d0bd244e8bbbef5c7d3f28))  - (repo-ranger[bot])
+- Updated .github/FUNDING.yml ([75e2ea0](https://github.com/tj-actions/bandit/commit/75e2ea0640d0a268ce97ffa504f913d65677487a))  - (Tonye Jack)
+- Updated .github/FUNDING.yml ([6ee6365](https://github.com/tj-actions/bandit/commit/6ee6365d5135d499a2bf5ae1b901b23adea62806))  - (Tonye Jack)
+- Updated renovate.json ([497bb85](https://github.com/tj-actions/bandit/commit/497bb85c6b3914836f941c039752615143e019b3))  - (Tonye Jack)
+- Updated README.md
+ ([0e5ccbc](https://github.com/tj-actions/bandit/commit/0e5ccbc786b7aee7601bd68e515b73fc6cfb1987))  - (jackton1)
+- Updated README.md
+ ([86d7bd0](https://github.com/tj-actions/bandit/commit/86d7bd0bbd4cbab669b75cdf7d2d41729cdec6ff))  - (jackton1)
+- Update test.yml ([d23181d](https://github.com/tj-actions/bandit/commit/d23181d91ba43a36c315de3f511832dc0c61121f))  - (Tonye Jack)
+
+## <!-- 30 -->📝 Other
+
+- PR [#221](https://github.com/tj-actions/bandit/pull/221): update actions/checkout action to v4 ([57138c0](https://github.com/tj-actions/bandit/commit/57138c0447fe8224b848fa30b9520daaed525891))  - (repo-ranger[bot])
+- PR [#219](https://github.com/tj-actions/bandit/pull/219): update tj-actions/release-tagger action to v4 ([fdd2b11](https://github.com/tj-actions/bandit/commit/fdd2b115cb3d7661c7dbdd238e4bb46da60255ba))  - (repo-ranger[bot])
+- PR [#217](https://github.com/tj-actions/bandit/pull/217): README.md ([b8228dd](https://github.com/tj-actions/bandit/commit/b8228dd70d4c0dbd439ee93cf263f9c09502148a))  - (repo-ranger[bot])
+- PR [#216](https://github.com/tj-actions/bandit/pull/216): update tj-actions/auto-doc action to v3 ([80d1a13](https://github.com/tj-actions/bandit/commit/80d1a13d710e2668597cf12652ae2ab78ccdf7ec))  - (repo-ranger[bot])
+- PR [#214](https://github.com/tj-actions/bandit/pull/214): update docker/setup-buildx-action action to v2.9.0 ([eb9c7c4](https://github.com/tj-actions/bandit/commit/eb9c7c4c21ee00bc30447e7ea91e9a5423888fb9))  - (repo-ranger[bot])
+- PR [#198](https://github.com/tj-actions/bandit/pull/198): README.md ([2f414f1](https://github.com/tj-actions/bandit/commit/2f414f11a20f9f616d88533450f10bba59ab6dbe))  - (repo-ranger[bot])
+- PR [#196](https://github.com/tj-actions/bandit/pull/196): README.md ([5f36d87](https://github.com/tj-actions/bandit/commit/5f36d8707fc56595b101ec4415cf421b4ef7087a))  - (repo-ranger[bot])
+- PR [#192](https://github.com/tj-actions/bandit/pull/192): to v5.4 ([8e9d678](https://github.com/tj-actions/bandit/commit/8e9d678597f3ef3ad11cc9476f49c4c14e3512cd))  - (repo-ranger[bot])
+
+## <!-- 7 -->⚙️ Miscellaneous Tasks
+
+- **deps:** Update reviewdog/action-shellcheck action to v1.19 ([0aed5b3](https://github.com/tj-actions/bandit/commit/0aed5b3da320e0f26781e5aecbbfc1d268ff07e2))  - (renovate[bot])
+- **deps:** Update actions/checkout action to v4 ([4d66f1d](https://github.com/tj-actions/bandit/commit/4d66f1d212194b602e79920948db43e2626a2bad))  - (renovate[bot])
+- **deps:** Update docker/setup-buildx-action action to v2.10.0 ([b042b3f](https://github.com/tj-actions/bandit/commit/b042b3f595877dd4e1745de763d0e5b3a6db2ffd))  - (renovate[bot])
+- **deps:** Update tj-actions/release-tagger action to v4 ([a9d7d83](https://github.com/tj-actions/bandit/commit/a9d7d8329159512085a9c94d9390b983595f6949))  - (renovate[bot])
+- **deps:** Update actions/checkout action to v3.6.0 ([bef8732](https://github.com/tj-actions/bandit/commit/bef8732b859fca8b983c8dad2579ac6a9467f5aa))  - (renovate[bot])
+- **deps:** Update tj-actions/auto-doc action to v3 ([1d6fbc2](https://github.com/tj-actions/bandit/commit/1d6fbc22e0a4ea896cfcb8735ad7c90ce43b8c1a))  - (renovate[bot])
+- **deps:** Update docker/setup-buildx-action action to v2.9.1 ([4782b20](https://github.com/tj-actions/bandit/commit/4782b200c915ad67e685db2b358fca8376c2c818))  - (renovate[bot])
+- **deps:** Update docker/setup-buildx-action action to v2.9.0 ([04df6b6](https://github.com/tj-actions/bandit/commit/04df6b6cac5ee3b40843b801b4ebc2418813ae7e))  - (renovate[bot])
+- **deps:** Update docker/setup-buildx-action action to v2.8.0 ([7ba3754](https://github.com/tj-actions/bandit/commit/7ba3754ec02456d01b86b5938b3b72e345d85c33))  - (renovate[bot])
+- **deps:** Update tj-actions/verify-changed-files action to v16 ([294d0e5](https://github.com/tj-actions/bandit/commit/294d0e59191853a15784404205ce2583a553ee6c))  - (renovate[bot])
+- **deps:** Update reviewdog/action-shellcheck action to v1.18 ([cc292d3](https://github.com/tj-actions/bandit/commit/cc292d30684bc57272a3b9e6778838a036c1849c))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v5.0.2 ([fae0170](https://github.com/tj-actions/bandit/commit/fae01706d461445cd97ef3e3712c2e0d5db68274))  - (renovate[bot])
+- **deps:** Update docker/build-push-action action to v4.1.1 ([f38c8cc](https://github.com/tj-actions/bandit/commit/f38c8cceb58924720840085e9cb845bef66c4a2c))  - (renovate[bot])
+- **deps:** Update docker/setup-buildx-action action to v2.7.0 ([a12341b](https://github.com/tj-actions/bandit/commit/a12341b8e1dfdf3cc043c56a570477330eafbb55))  - (renovate[bot])
+- **deps:** Update tj-actions/verify-changed-files action to v15 ([7789570](https://github.com/tj-actions/bandit/commit/77895704879904224fdf8fb5d4f10533fe1ac3c0))  - (renovate[bot])
+- **deps:** Update docker/build-push-action action to v4.1.0 ([de5e003](https://github.com/tj-actions/bandit/commit/de5e0031de8e8d7be0429898e5febe56365f89f9))  - (renovate[bot])
+- **deps:** Update actions/checkout action to v3.5.3 ([a251878](https://github.com/tj-actions/bandit/commit/a251878dc2bbcf5b74117c9da09fb49b7326239a))  - (renovate[bot])
+- **deps:** Update docker/setup-buildx-action action to v2.6.0 ([a7ef690](https://github.com/tj-actions/bandit/commit/a7ef690d2b8f3c234bec5d46ef07d5c7e1bbc3c3))  - (renovate[bot])
+- **deps:** Update docker/login-action action to v2.2.0 ([51a24ea](https://github.com/tj-actions/bandit/commit/51a24ea097cfa7f623cde45bf7ea0d75f02b4cba))  - (renovate[bot])
+- **deps:** Update docker/setup-qemu-action action to v2.2.0 ([478a7be](https://github.com/tj-actions/bandit/commit/478a7be6e30c554d133d8991a251bb7303541d69))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v5.0.1 ([de66aaf](https://github.com/tj-actions/bandit/commit/de66aaf439c443645f57850e0af5040b637d3422))  - (renovate[bot])
+- **deps:** Update actions/checkout action to v3.5.2 ([51b9e4b](https://github.com/tj-actions/bandit/commit/51b9e4beec15a06993ef7c8423456ad7be3992df))  - (renovate[bot])
+- **deps:** Update actions/checkout action to v3.5.1 ([ea64c69](https://github.com/tj-actions/bandit/commit/ea64c694589c373e5ce8afb66f2bd5a771c4f871))  - (renovate[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v5.3 -> v5.4
+ ([c34cc74](https://github.com/tj-actions/bandit/commit/c34cc74ab9ddd0eb416615eb566a3a0f3a2dbaa9))  - (jackton1)
+
 # [5.4](https://github.com/tj-actions/bandit/compare/v5.3...v5.4) - (2023-04-06)
 
 ## <!-- 0 -->🚀 Features
