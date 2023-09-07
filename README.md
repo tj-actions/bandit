@@ -1,5 +1,5 @@
-[![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu\&logoColor=white&style=for-the-badge)](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on)
-[![Public workflows that use this action.](https://img.shields.io/endpoint?url=https%3A%2F%2Fused-by.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3Dtj-actions%2Fbandit%26badge%3Dtrue&style=for-the-badge)](https://github.com/search?o=desc\&q=tj-actions+bandit+language%3AYAML\&s=\&type=Code)
+[![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu\&logoColor=white\&style=for-the-badge)](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on)
+[![Public workflows that use this action.](https://img.shields.io/endpoint?url=https%3A%2F%2Fused-by.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3Dtj-actions%2Fbandit%26badge%3Dtrue\&style=for-the-badge)](https://github.com/search?o=desc\&q=tj-actions+bandit+language%3AYAML\&s=\&type=Code)
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/54e8fe5beafd46a5bbbc5ae5964e02f3)](https://app.codacy.com/gh/tj-actions/bandit?utm_source=github.com\&utm_medium=referral\&utm_content=tj-actions/bandit\&utm_campaign=Badge_Grade_Settings)
 [![CI](https://github.com/tj-actions/bandit/workflows/CI/badge.svg)](https://github.com/tj-actions/bandit/actions?query=workflow%3ACI)
