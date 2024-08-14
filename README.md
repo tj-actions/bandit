@@ -22,7 +22,7 @@
 ```yaml
 ...
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Run bandit
         uses: tj-actions/bandit@v5.1
 ```
@@ -32,7 +32,7 @@
 ```yaml
 ...
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Run bandit
         uses: tj-actions/bandit@v5.1
         with:
